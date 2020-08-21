@@ -80,14 +80,14 @@ void MainWindow::paintEvent(QPaintEvent* event)
 
 void MainWindow::on_xValue_valueChanged(int value)
 {
-    xValue = 240-value;
+    xValue = 240+value;
 
     MainWindow::update();
 }
 
 void MainWindow::on_yValue_valueChanged(int value)
 {
-    yValue = 240-value;
+    yValue = 240+value;
 
     MainWindow::update();
 }
